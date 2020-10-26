@@ -1,6 +1,6 @@
 # RAT project repository
 
-This a Debian repository for the [RAT project](https://gitlab.com/Project-Rat). This repository is to be used with Debian `bullseye` and later.
+This a Debian repository for the [RAT project](https://gitlab.com/Project-Rat). This repository can be used with Debian `bullseye` and later (and Ubuntu, Mint equivalents, etc).
 
 To use, run the following a root:
 
@@ -18,4 +18,8 @@ grep Package /var/lib/apt/lists/samangh.github.io_rat_dists_bullseye_main_binary
 
 ## Source
 
-The repository can be browsed at [https://github.com/samangh/rat](https://github.com/samangh/rat)
+The GitHub repository behind this site be browsed at [https://github.com/samangh/rat](https://github.com/samangh/rat)
+
+## Acknowledgments
+
+The RAT libraries are written by Jeroen van Nugteren. Debian packages created by Saman Ghannadzadeh.
