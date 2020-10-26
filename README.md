@@ -1,4 +1,6 @@
-This a Debian repository for the RAT project. This repository is to be used with Debian bullseye and later.
+# RAT project repository
+
+This a Debian repository for the [RAT project](https://gitlab.com/Project-Rat). This repository is to be used with Debian `bullseye` and later.
 
 To use, run the following a root:
 
@@ -8,8 +10,12 @@ apt-key adv --keyserver "hkps://keys.openpgp.org" --locate-key saman@saman-gh.co
 apt update
 ```
 
-If you are interested in seeing what packages are available from this repository, run
+To list the packages avilable from this repository, run
 
 ```sh
 grep Package /var/lib/apt/lists/samangh.github.io_rat_dists_bullseye_main_binary-amd64_Packages
 ```
+
+## Source
+
+The repository can be browsed at [https://github.com/samangh/rat](https://github.com/samangh/rat)
